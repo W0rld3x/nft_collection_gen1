@@ -11,7 +11,7 @@ const OPENSEA_LINK = '';
 const TOTAL_MINT_COUNT = 50;
 
 // I moved the contract address to the top for easy access.
-const CONTRACT_ADDRESS = "0xA6d89128002fCCDD3282D298e3428cEadd03Aa02";
+const CONTRACT_ADDRESS = "0xba980a1771bf789631ADc2f35049Ac1ce7a8Bd03";
 
 const App = () => {
 

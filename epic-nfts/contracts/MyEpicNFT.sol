@@ -112,7 +112,7 @@ event NewEpicNFTMinted(address sender, uint256 tokenId);
     _safeMint(msg.sender, newItemId);
     
     // Update your URI!!!
-    _setTokenURI(newItemId, "ipfs://");
+    _setTokenURI(newItemId, finalTokenUri);
   
     _tokenIds.increment();
     console.log("An NFT w/ ID %s has been minted to %s", newItemId, msg.sender);
